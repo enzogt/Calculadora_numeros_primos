@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_principal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="es.enzogt.primeraparactica.Principal">
+    <!--LinearLayout | android:orientation="vertical"-->
+
+
+    <TextView
+        android:text="@string/lblTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblTitulo"
+        android:textSize="30sp" />
+
+    <TextView
+        android:text="@string/lblNota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblExplicacion"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="63dp"
+        android:id="@+id/lblNota" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtEntrada"
+        android:ems="10"
+        android:id="@+id/txtEntrada"
+        android:layout_alignBottom="@+id/lblNota"
+        android:layout_alignParentEnd="true"
+        android:inputType="number" />
+
+    <TextView
+        android:text="@string/lblResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="38dp"
+        android:id="@+id/lblResultado" />
+
+    <Button
+        android:text="@string/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCalcular"
+        android:layout_above="@+id/lblResultado"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp" />
+
+    <TextView
+        android:text="@string/lblExplicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblExplicacion"
+        android:textSize="24sp"
+        android:textAlignment="textStart"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/lblTitulo"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

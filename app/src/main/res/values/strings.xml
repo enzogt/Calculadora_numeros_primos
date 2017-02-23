@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Primera Tarea</string>
+
+    <!-- Labels -->
+    <string name="lblTitulo">Calculadora de números primos:</string>
+    <string name="lblExplicacion">Introduce qué número primo quieres calcular. Por ejemplo, si deseas saber el sexto número primo, pon el numero 6 y dale a calcular. Te dirá que el sexto número primo es 11.</string>
+    <string name="lblNota">Posición</string>
+    <string name="lblResultado">Resultado</string>
+
+    <!-- Inputs -->
+    <string name="txtEntrada"></string><!-- Introduce un número -->
+
+    <!-- Botones -->
+    <string name="btnCalcular">Calcular!</string>
+
+    <!-- CheckBox -->
+    <string name="cbUnoPrimo">El 1 es primo</string>
+
+    <!-- Textos -->
+    <string name="textoNoNumero">Valor introducido no numerico.</string>
+    <string name="textoMayorLimite">Número introducido menor o igual a 0 o mayor o igual que 100.000</string>
+    <string name="textoPatronRespuesta">El primo número {0} es el {1}</string>
+    <string name="textoUnoEsPrimo">{0} tratará el número 1 como primo.</string>
+</resources>
